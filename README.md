@@ -2,15 +2,15 @@
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+[![CodeCov][codecov-badge]][codecov]
 
 Describe petto_styleguide here.
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+[build-badge]: https://img.shields.io/travis/pettoapp/petto_styleguide/master.png?style=flat-square
+[build]: https://travis-ci.org/pettoapp/petto_styleguide
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+[npm]: https://www.npmjs.org/package/petto_styleguide
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+[codecov-badge]: https://codecov.io/gh/pettoapp/petto_styleguide/branch/master/graph/badge.svg?style=flat-square
+[codecov]: https://codecov.io/gh/pettoapp/petto_styleguide
