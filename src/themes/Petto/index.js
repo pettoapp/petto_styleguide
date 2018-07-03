@@ -17,19 +17,23 @@ export default {
       borderColor: props.type === 'primary' ? '#61C8A7' : '#6c757d',
       '&:hover': {
           color: '#fff',
-          backgroundColor: props.outline ? (props.type === 'primary' ? '#007bff' : '#6c757d') : (props.type === 'primary' ? '#0069d9' : '#5a6268'),
-          borderColor: props.outline ? (props.type === 'primary' ? '#007bff' : '#6c757d') : (props.type === 'primary' ? '#0062cc' : '#545b62'),
+          backgroundColor: props.outline ? (props.type === 'primary' ? '#61C8A7' : '#6c757d') : (props.type === 'primary' ? '#61C8A7' : '#5a6268'),
+          borderColor: props.outline ? (props.type === 'primary' ? '#61C8A7' : '#6c757d') : (props.type === 'primary' ? '#61C8A7' : '#545b62'),
       }
     }),
     TextInput: props => ({
       display: 'block',
       fontWeight: '400',
       textAlign: 'left',
-      padding: '.375rem .75rem',
+      padding: '0 .75rem',
       border: '1px solid transparent',
       borderRadius: '.25rem',
+      boxShadow: 'rgba(67, 90, 111, 0.204) 0px 0px 0px 1px inset, rgba(67, 90, 111, 0.145) 0px 1px 2px inset',
       outline: 'none',
-      borderColor: props.appearance === 'default' ? '#65AB94' : '#6c757d',
+      height: '32px',
+      borderColor: props.isInvalid ? 'red' : 'auto',
+      cursor: props.disabled ? 'not-allowed' : 'auto',
+      backgroundColor: props.disabled ? 'rgba(67, 90, 111, 0.04)' : '#ffffff',
       ...props,
     })
 };
