@@ -1,2 +1,5 @@
-export Button from './components/Button';
-export TextInput from './components/TextInput';
+import Button from './components/Button';
+import TextInput from './components/TextInput';
+
+
+export {Button, TextInput}

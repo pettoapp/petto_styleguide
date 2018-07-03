@@ -29,7 +29,6 @@ export default {
       border: '1px solid transparent',
       borderRadius: '.25rem',
       outline: 'none',
-      backgroundColor: props.outline ? 'transparent' : (props.type === 'primary' ? '#61C8A7' : '#6c757d'),
       borderColor: props.appearance === 'default' ? '#65AB94' : '#6c757d',
       ...props,
     })
